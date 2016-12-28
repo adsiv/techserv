@@ -4,6 +4,7 @@ old intranet site
 This is an intranet site I created a few years ago for a tech department to use. It's (presumably) still being used as a resource for employees of my old tech department to store hardware and propietary software installation instructions, manage links to various other intranet pages and network resources, track available used inventory to save time returning calls to customers and various other tools.  All sensetive information has been removed.
 
 default.aspx
+
 Main page, displays dynamic links created from the secure/techserv.s3db database.
 
 documentsearch.aspx
