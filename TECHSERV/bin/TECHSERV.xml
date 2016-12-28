@@ -1,0 +1,1046 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TECHSERV
+</name>
+</assembly>
+<members>
+<member name="T:TECHSERV.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.Application">
+ <summary>
+ Returns information about the current application.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="P:TECHSERV.My.MyWebExtension.WebServices">
+ <summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member>
+<member name="T:TECHSERV.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TECHSERV.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TECHSERV.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TECHSERV.sqltechserv.GetSingleRecord(System.Int32,System.Int32)">
+ <summary>
+ Returns a string(). Specify # to return a single column instead.
+ </summary>
+ <param name="intIndex"></param>
+ <param name="intSpecificColumn">(Optional) Use to specify a single column. Returns as a single string value.</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.GetURLIndex(System.String,System.String,System.String)">
+ <summary>
+ Only works with tblNavigation. Use link_description, link_url and link_category to return ID.
+ </summary>
+ <param name="strDescription"></param>
+ <param name="strURL"></param>
+ <param name="strCategory"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.InsertURL(System.String,System.String,System.String)">
+ <summary>
+ Only works with tblNavigation.
+ </summary>
+ <param name="strDescription"></param>
+ <param name="strURL"></param>
+ <param name="strCategory"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.InsertHardware(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Only works with tblHardwareList.
+ </summary>
+ <param name="strName"></param>
+ <param name="strPriceUS"></param>
+ <param name="strPriceCAN"></param>
+ <param name="strInterface"></param>
+ <param name="strAdditionalCharges"></param>
+ <param name="strType"></param>
+ <param name="strCategory"></param>
+ <param name="strDetails"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.InsertUsedHardware(System.String,System.String,System.String,System.String)">
+ <summary>
+ Only works with tblUsedHardware.
+ </summary>
+ <param name="strType"></param>
+ <param name="strSerialNumber"></param>
+ <param name="strPrice"></param>
+ <param name="strDescription"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.UpdateURL(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Only works with tblNavigation.
+ </summary>
+ <param name="intIndex">ID to update.</param>
+ <param name="strNewDescription">Value to be saved to link_description.</param>
+ <param name="strNewURL">Value to be saved to link_url.</param>
+ <param name="strNewCategory">Value to be saved to link_category.</param>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.UpdateHardware(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Only works with tblHardwareList
+ </summary>
+ <param name="intIndex"></param>
+ <param name="strNewName"></param>
+ <param name="strNewPriceUS"></param>
+ <param name="strNewPriceCAN"></param>
+ <param name="strNewInterface"></param>
+ <param name="strNewAdditionalCharges"></param>
+ <param name="strNewType"></param>
+ <param name="strNewCategory"></param>
+ <param name="strNewDetails"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TECHSERV.sqltechserv.UpdateUsedHardware(System.Int32,System.String,System.String,System.String,System.String)">
+ <summary>
+ Only works with tblUsedHardware.
+ </summary>
+ <param name="intIndex"></param>
+ <param name="strNewType"></param>
+ <param name="strNewSerial"></param>
+ <param name="strNewPrice"></param>
+ <param name="strNewDescription"></param>
+ <remarks></remarks>
+</member>
+<member name="F:TECHSERV.Techserv._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.Techserv._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.Techserv._LoginName2">
+<summary>
+LoginName2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.Techserv._smMain">
+<summary>
+smMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.Techserv._upMain">
+<summary>
+upMain control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.Techserv._Content">
+<summary>
+Content control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._pnlEditNotification">
+<summary>
+pnlEditNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._txtNotificationText">
+<summary>
+txtNotificationText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._chkActive">
+<summary>
+chkActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._btnSave">
+<summary>
+btnSave control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._pnlViewNotification">
+<summary>
+pnlViewNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._lblNotificationText">
+<summary>
+lblNotificationText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._lblActive">
+<summary>
+lblActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm22._btnEditNotification">
+<summary>
+btnEditNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._pnlNotification">
+<summary>
+pnlNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._lblNotification">
+<summary>
+lblNotification control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._pnlLinksOnly">
+<summary>
+pnlLinksOnly control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._lblList1">
+<summary>
+lblList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._lblList2">
+<summary>
+lblList2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._pnlSmallLinks">
+<summary>
+pnlSmallLinks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm9._lblOutput">
+<summary>
+lblOutput control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._pnlList">
+<summary>
+pnlList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._gvLinks">
+<summary>
+gvLinks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._btnStartNewLink">
+<summary>
+btnStartNewLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._pnlEditLinks">
+<summary>
+pnlEditLinks control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._txtLinkDescription">
+<summary>
+txtLinkDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._txtLinkURL">
+<summary>
+txtLinkURL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._ddlLinkCategory">
+<summary>
+ddlLinkCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._btnLinkAdd">
+<summary>
+btnLinkAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._btnLinkUpdate">
+<summary>
+btnLinkUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm8._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._pnlProjectList">
+<summary>
+pnlProjectList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnBeginNewEntry">
+<summary>
+btnBeginNewEntry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._gvProjectList">
+<summary>
+gvProjectList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._pnlViewProject">
+<summary>
+pnlViewProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._lblViewProject">
+<summary>
+lblViewProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnEditProject">
+<summary>
+btnEditProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnCloseView">
+<summary>
+btnCloseView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._txtAddComment">
+<summary>
+txtAddComment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnAddComment">
+<summary>
+btnAddComment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._pnlAddProject">
+<summary>
+pnlAddProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._txtNewShortDescription">
+<summary>
+txtNewShortDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._txtNewLongDescription">
+<summary>
+txtNewLongDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnCreateProject">
+<summary>
+btnCreateProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnCancelNewProject">
+<summary>
+btnCancelNewProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._pnlEditProject">
+<summary>
+pnlEditProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._txtEditShortDescription">
+<summary>
+txtEditShortDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._txtEditLongDescription">
+<summary>
+txtEditLongDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnUpdateProject">
+<summary>
+btnUpdateProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnCancelEditProject">
+<summary>
+btnCancelEditProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnPromptDelete">
+<summary>
+btnPromptDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._pnlDeleteProject">
+<summary>
+pnlDeleteProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._lblDeleteProject">
+<summary>
+lblDeleteProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnDeleteProject">
+<summary>
+btnDeleteProject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm10._btnCancelDelete">
+<summary>
+btnCancelDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._gvItemList">
+<summary>
+gvItemList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._btnStartNewItem">
+<summary>
+btnStartNewItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._pnlEditItem">
+<summary>
+pnlEditItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemName">
+<summary>
+txtItemName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemUSPrice">
+<summary>
+txtItemUSPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemCANPrice">
+<summary>
+txtItemCANPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemInterface">
+<summary>
+txtItemInterface control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemAdditionalCharges">
+<summary>
+txtItemAdditionalCharges control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._ddlItemType">
+<summary>
+ddlItemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._ddlItemCategory">
+<summary>
+ddlItemCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._txtItemDetails">
+<summary>
+txtItemDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._btnItemAdd">
+<summary>
+btnItemAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._btnItemUpdate">
+<summary>
+btnItemUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm2._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm3._lblCheckinList">
+<summary>
+lblCheckinList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm3._lblPOSList">
+<summary>
+lblPOSList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm3._lblOtherList">
+<summary>
+lblOtherList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._gvUsedItemList">
+<summary>
+gvUsedItemList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._btnNewEntry">
+<summary>
+btnNewEntry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._pnlEditItem">
+<summary>
+pnlEditItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._ddlUsedItemType">
+<summary>
+ddlUsedItemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._txtUsedItemSerialNumber">
+<summary>
+txtUsedItemSerialNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._txtUsedItemPrice">
+<summary>
+txtUsedItemPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._txtUsedItemDescription">
+<summary>
+txtUsedItemDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._lblDeleteMessage">
+<summary>
+lblDeleteMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._btnItemAdd">
+<summary>
+btnItemAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._btnItemUpdate">
+<summary>
+btnItemUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._btnCancel">
+<summary>
+btnCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm11._hlViewUsedHardwareList">
+<summary>
+hlViewUsedHardwareList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm12._gvUsedCategoryList">
+<summary>
+gvUsedCategoryList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm12._lblSelectedItemType">
+<summary>
+lblSelectedItemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm12._gvFilteredItems">
+<summary>
+gvFilteredItems control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm12._lblSelectedItemDetails">
+<summary>
+lblSelectedItemDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm12._hlEditUsedHardwareList">
+<summary>
+hlEditUsedHardwareList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm15._txtClientNumber">
+<summary>
+txtClientNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm15._txtAccountNumber">
+<summary>
+txtAccountNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm15._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:TECHSERV.WebForm15._lblResults">
+<summary>
+lblResults control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

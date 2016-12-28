@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\techserv\wroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ajaxtest.aspx">
+      <publishTime>09/03/2013 14:42:26</publishTime>
+    </File>
+    <File Include="as400.aspx">
+      <publishTime>04/17/2013 09:35:23</publishTime>
+    </File>
+    <File Include="as400_f4.png">
+      <publishTime>10/29/2012 14:49:27</publishTime>
+    </File>
+    <File Include="asfintstatus.aspx">
+      <publishTime>11/27/2012 12:58:27</publishTime>
+    </File>
+    <File Include="ASFLogo-336699.png">
+      <publishTime>10/26/2012 12:14:19</publishTime>
+    </File>
+    <File Include="asf_log.png">
+      <publishTime>01/22/2013 13:05:02</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/13/2014 15:45:17</publishTime>
+    </File>
+    <File Include="bin/TECHSERV.dll">
+      <publishTime>07/21/2014 10:51:19</publishTime>
+    </File>
+    <File Include="bin/TECHSERV.xml">
+      <publishTime>07/21/2014 10:51:19</publishTime>
+    </File>
+    <File Include="CCString.aspx">
+      <publishTime>05/21/2014 11:18:00</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/04/2014 17:05:05</publishTime>
+    </File>
+    <File Include="documents.aspx">
+      <publishTime>04/10/2013 11:58:49</publishTime>
+    </File>
+    <File Include="DocumentSearch.aspx">
+      <publishTime>05/29/2014 13:22:58</publishTime>
+    </File>
+    <File Include="Forms/SystemChecklist.aspx">
+      <publishTime>11/02/2012 15:57:42</publishTime>
+    </File>
+    <File Include="Frame.aspx">
+      <publishTime>02/04/2014 16:19:46</publishTime>
+    </File>
+    <File Include="front.jpg">
+      <publishTime>11/01/2012 14:03:01</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/31/2012 11:42:01</publishTime>
+    </File>
+    <File Include="HardwareList.aspx">
+      <publishTime>11/13/2013 16:41:43</publishTime>
+    </File>
+    <File Include="HardwareSetup/HardwareList.aspx">
+      <publishTime>05/07/2013 15:14:31</publishTime>
+    </File>
+    <File Include="HardwareSetup/HtmlPage1.html">
+      <publishTime>04/12/2013 10:31:53</publishTime>
+    </File>
+    <File Include="HardwareSetup/images/slotreader_ac.jpg">
+      <publishTime>04/17/2013 10:09:44</publishTime>
+    </File>
+    <File Include="HardwareSetup/images/slotreader_ac_details.jpg">
+      <publishTime>04/17/2013 10:09:44</publishTime>
+    </File>
+    <File Include="HardwareSetup/phonetree.html">
+      <publishTime>02/11/2013 09:41:08</publishTime>
+    </File>
+    <File Include="HardwareSetup/RegListAlpha.htm">
+      <publishTime>05/23/2013 09:56:00</publishTime>
+    </File>
+    <File Include="HardwareSetup/RegListCategory.htm">
+      <publishTime>05/23/2013 09:55:45</publishTime>
+    </File>
+    <File Include="HardwareSetup/Setup24Hour.htm">
+      <publishTime>02/04/2014 16:33:19</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupCashDrawer.htm">
+      <publishTime>07/10/2013 16:32:09</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupClubPRO.htm">
+      <publishTime>05/23/2013 09:49:24</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupFingerprintScanner.htm">
+      <publishTime>10/24/2013 15:12:38</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupOrbitScanner.htm">
+      <publishTime>04/29/2014 14:05:55</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupRelayBox.htm">
+      <publishTime>02/04/2014 16:34:40</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupSignaturePad.htm">
+      <publishTime>05/23/2013 09:50:01</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupSlotReader.htm">
+      <publishTime>02/04/2014 16:36:41</publishTime>
+    </File>
+    <File Include="HardwareSetup/setuptemplate.htm">
+      <publishTime>05/23/2013 09:49:43</publishTime>
+    </File>
+    <File Include="HardwareSetup/setuptemplate.html">
+      <publishTime>01/04/2013 11:49:22</publishTime>
+    </File>
+    <File Include="images/allowed.png">
+      <publishTime>01/22/2014 13:19:11</publishTime>
+    </File>
+    <File Include="images/as400_f4.png">
+      <publishTime>10/29/2012 14:49:27</publishTime>
+    </File>
+    <File Include="images/asfmap.jpg">
+      <publishTime>05/29/2013 09:31:02</publishTime>
+    </File>
+    <File Include="images/asf_log.png">
+      <publishTime>01/22/2013 13:05:02</publishTime>
+    </File>
+    <File Include="images/front.jpg">
+      <publishTime>11/01/2012 14:03:01</publishTime>
+    </File>
+    <File Include="images/newasflogo.png">
+      <publishTime>11/13/2013 15:53:36</publishTime>
+    </File>
+    <File Include="images/print.png">
+      <publishTime>04/12/2013 14:47:32</publishTime>
+    </File>
+    <File Include="images/secure.png">
+      <publishTime>02/20/2013 13:25:00</publishTime>
+    </File>
+    <File Include="MS.aspx">
+      <publishTime>05/22/2013 11:41:30</publishTime>
+    </File>
+    <File Include="navigation.xml">
+      <publishTime>02/15/2013 10:11:30</publishTime>
+    </File>
+    <File Include="oldDefault.aspx">
+      <publishTime>02/15/2013 10:16:57</publishTime>
+    </File>
+    <File Include="print.png">
+      <publishTime>04/12/2013 14:47:32</publishTime>
+    </File>
+    <File Include="Projects/Projects.aspx">
+      <publishTime>04/04/2013 13:27:51</publishTime>
+    </File>
+    <File Include="Projects/Projects.xml">
+      <publishTime>03/12/2013 12:42:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="secure.png">
+      <publishTime>02/20/2013 13:25:00</publishTime>
+    </File>
+    <File Include="secure/asfintstatus.aspx">
+      <publishTime>05/07/2013 15:13:41</publishTime>
+    </File>
+    <File Include="secure/DownloadInfo.aspx">
+      <publishTime>07/21/2014 10:26:35</publishTime>
+    </File>
+    <File Include="secure/HardwareList.xml">
+      <publishTime>05/17/2013 12:30:45</publishTime>
+    </File>
+    <File Include="secure/ManageHardwareList.aspx">
+      <publishTime>04/22/2014 10:25:26</publishTime>
+    </File>
+    <File Include="secure/ManageLinks.aspx">
+      <publishTime>04/21/2014 11:52:47</publishTime>
+    </File>
+    <File Include="secure/ManageUsedHardware.aspx">
+      <publishTime>04/22/2014 13:28:26</publishTime>
+    </File>
+    <File Include="secure/navigation.xml">
+      <publishTime>04/05/2013 10:37:42</publishTime>
+    </File>
+    <File Include="secure/phonetree.aspx">
+      <publishTime>05/22/2014 14:00:28</publishTime>
+    </File>
+    <File Include="secure/PortListing.aspx">
+      <publishTime>06/25/2014 18:07:15</publishTime>
+    </File>
+    <File Include="secure/testpage.aspx">
+      <publishTime>06/26/2014 15:09:30</publishTime>
+    </File>
+    <File Include="secure/UsedHardwareList.xml">
+      <publishTime>01/15/2014 17:44:58</publishTime>
+    </File>
+    <File Include="ServerStatus/asfintstatus.aspx">
+      <publishTime>01/22/2013 13:09:33</publishTime>
+    </File>
+    <File Include="SoftwareSetup/SetupClubPRO.html">
+      <publishTime>01/04/2013 14:25:56</publishTime>
+    </File>
+    <File Include="SoftwareSetup/setuptemplate.html">
+      <publishTime>01/04/2013 11:49:22</publishTime>
+    </File>
+    <File Include="Styles/Copy of techserv.css">
+      <publishTime>01/22/2013 13:22:44</publishTime>
+    </File>
+    <File Include="Styles/techserv.css">
+      <publishTime>07/21/2014 10:18:30</publishTime>
+    </File>
+    <File Include="System.Data.SQLite.dll">
+      <publishTime>03/13/2014 15:45:17</publishTime>
+    </File>
+    <File Include="Techserv1.Master">
+      <publishTime>11/13/2013 15:12:50</publishTime>
+    </File>
+    <File Include="TechservM.Master">
+      <publishTime>07/21/2014 10:51:01</publishTime>
+    </File>
+    <File Include="testpage.aspx">
+      <publishTime>06/26/2014 11:52:16</publishTime>
+    </File>
+    <File Include="UsedHardwareList.aspx">
+      <publishTime>01/17/2014 18:01:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/21/2014 10:51:20</publishTime>
+    </File>
+    <File Include="WebForm13.aspx">
+      <publishTime>12/23/2013 09:40:37</publishTime>
+    </File>
+    <File Include="xmltest.aspx">
+      <publishTime>02/15/2013 10:16:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

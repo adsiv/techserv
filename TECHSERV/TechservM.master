@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="TechservM.master.vb" Inherits="TECHSERV.Techserv" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/techserv.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="pageborder" style="background-color:#222288">
+
+    <form id="form1" runat="server">
+        
+        <table style="background-color:#507CD1; text-align:center;" class="tableheader tablenospacing">
+            <tr>
+                <td>
+
+                    <table class="tablenospacing">
+                        <tr>
+                            <td style="padding:0px 15px 0px 15px;">
+                                <img alt="" src="/techserv/images/newlogo.png" style="height:15px; width:65px;" />
+                            </td>
+                            <td class="header_title">
+                                TECHSERV
+                            </td>
+                            <td style="width:50%;text-align: right;padding:0px 15px 0px 15px;">
+                                <asp:LoginName ID="LoginName2" runat="server" CssClass="header_username" />
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+
+
+
+        <table class="tableheader" style="background-color:#FFFFFF;">
+            <tr>
+                <td style="text-align:center;" >
+                    <span class="content_text">
+                        Quicklinks:</span></td>
+            </tr>
+        </table>
+
+        <table class="tableheader" style="background-color: #FFFFFF">
+            <tr>
+                <td>
+
+                    <table class="tablewidth90 content_text" style="margin-left:auto; margin-right:auto;">
+                        <tr>
+                            <td>
+
+                            <asp:ScriptManager ID="smMain" runat="server">
+                            </asp:ScriptManager>
+                            <asp:UpdatePanel ID="upMain" runat="server">
+                                <ContentTemplate>
+                                    <asp:ContentPlaceHolder ID="Content" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </table>
+
+    </form>
+ </body>
+</html>

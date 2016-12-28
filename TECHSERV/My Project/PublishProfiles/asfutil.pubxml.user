@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\asfutil\wwwroot\techserv</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="as400.aspx">
+      <publishTime>06/25/2015 09:20:20</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.dll">
+      <publishTime>02/25/2010 21:30:00</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/13/2014 15:45:17</publishTime>
+    </File>
+    <File Include="bin/TECHSERV.dll">
+      <publishTime>06/29/2015 15:34:47</publishTime>
+    </File>
+    <File Include="bin/TECHSERV.pdb">
+      <publishTime>08/01/2014 12:21:10</publishTime>
+    </File>
+    <File Include="bin/TECHSERV.xml">
+      <publishTime>06/29/2015 15:34:47</publishTime>
+    </File>
+    <File Include="CCString.aspx">
+      <publishTime>06/25/2015 09:19:31</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/25/2015 09:24:03</publishTime>
+    </File>
+    <File Include="DocumentSearch.aspx">
+      <publishTime>06/25/2015 09:34:24</publishTime>
+    </File>
+    <File Include="Forms/SystemChecklist.aspx">
+      <publishTime>11/02/2012 15:57:42</publishTime>
+    </File>
+    <File Include="Frame.aspx">
+      <publishTime>06/25/2015 09:50:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/31/2012 11:42:01</publishTime>
+    </File>
+    <File Include="HardwareList.aspx">
+      <publishTime>06/25/2015 10:41:56</publishTime>
+    </File>
+    <File Include="HardwareSetup/images/slotreader_ac.jpg">
+      <publishTime>04/17/2013 10:09:44</publishTime>
+    </File>
+    <File Include="HardwareSetup/images/slotreader_ac_details.jpg">
+      <publishTime>04/17/2013 10:09:44</publishTime>
+    </File>
+    <File Include="HardwareSetup/RegListAlpha.htm">
+      <publishTime>06/29/2015 13:54:39</publishTime>
+    </File>
+    <File Include="HardwareSetup/RegListCategory.htm">
+      <publishTime>06/29/2015 15:16:39</publishTime>
+    </File>
+    <File Include="HardwareSetup/Setup24Hour.htm">
+      <publishTime>09/15/2014 10:24:56</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupCashDrawer.htm">
+      <publishTime>10/22/2014 09:05:40</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupClubPRO.htm">
+      <publishTime>11/06/2014 10:07:48</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupFingerprintScanner.htm">
+      <publishTime>09/15/2014 10:24:01</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupGenesis.htm">
+      <publishTime>04/02/2015 12:13:41</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupOrbitScanner.htm">
+      <publishTime>09/15/2014 10:23:31</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupRelayBox.htm">
+      <publishTime>09/15/2014 10:06:00</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupSignaturePad.htm">
+      <publishTime>10/21/2014 09:59:40</publishTime>
+    </File>
+    <File Include="HardwareSetup/SetupSlotReader.htm">
+      <publishTime>09/15/2014 10:05:46</publishTime>
+    </File>
+    <File Include="HardwareSetup/setuptemplate.htm">
+      <publishTime>05/23/2013 09:49:43</publishTime>
+    </File>
+    <File Include="images/allowed.png">
+      <publishTime>01/22/2014 13:19:11</publishTime>
+    </File>
+    <File Include="images/as400_f4.png">
+      <publishTime>10/29/2012 14:49:27</publishTime>
+    </File>
+    <File Include="images/asfmap.jpg">
+      <publishTime>05/29/2013 09:31:02</publishTime>
+    </File>
+    <File Include="images/asf_log.png">
+      <publishTime>01/22/2013 13:05:02</publishTime>
+    </File>
+    <File Include="images/F4/1-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/10-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/11-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/12-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/2-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/2-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/2-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/2-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/2-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/3-1.png">
+      <publishTime>10/29/2014 16:01:29</publishTime>
+    </File>
+    <File Include="images/F4/3-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/3-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/3-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/3-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/3-6.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/4-6.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/5-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/6-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/6-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/6-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/6-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-6.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-7.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-8.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/7-9.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-6.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/8-7.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-1.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-2.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-3.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-4.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-5.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-6.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/F4/9-7.png">
+      <publishTime>10/29/2014 15:54:25</publishTime>
+    </File>
+    <File Include="images/front.jpg">
+      <publishTime>11/01/2012 14:03:01</publishTime>
+    </File>
+    <File Include="images/newasflogo.png">
+      <publishTime>11/13/2013 15:53:36</publishTime>
+    </File>
+    <File Include="images/print.png">
+      <publishTime>04/12/2013 14:47:32</publishTime>
+    </File>
+    <File Include="images/secure.png">
+      <publishTime>02/20/2013 13:25:00</publishTime>
+    </File>
+    <File Include="images/table/content_bottom_left.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/content_bottom_right.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/content_top_left.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/content_top_right.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/links_left.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/links_right.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/notification_bottom_left.png">
+      <publishTime>12/16/2014 16:39:40</publishTime>
+    </File>
+    <File Include="images/table/notification_bottom_right.png">
+      <publishTime>12/16/2014 16:40:03</publishTime>
+    </File>
+    <File Include="images/table/notification_top_left.png">
+      <publishTime>12/16/2014 16:38:58</publishTime>
+    </File>
+    <File Include="images/table/notification_top_right.png">
+      <publishTime>12/16/2014 16:39:16</publishTime>
+    </File>
+    <File Include="images/table/title_left.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="images/table/title_right.png">
+      <publishTime>12/16/2014 13:08:50</publishTime>
+    </File>
+    <File Include="Projects/Projects.aspx">
+      <publishTime>04/04/2013 13:27:51</publishTime>
+    </File>
+    <File Include="Projects/Projects.xml">
+      <publishTime>03/12/2013 12:42:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>10/24/2012 09:02:58</publishTime>
+    </File>
+    <File Include="secure/AsfintStatus.aspx">
+      <publishTime>05/07/2013 15:13:41</publishTime>
+    </File>
+    <File Include="secure/ManageHardwareList.aspx">
+      <publishTime>06/25/2015 13:13:15</publishTime>
+    </File>
+    <File Include="secure/ManageLinks.aspx">
+      <publishTime>06/29/2015 09:43:30</publishTime>
+    </File>
+    <File Include="secure/ManageUsedHardware.aspx">
+      <publishTime>06/29/2015 10:34:03</publishTime>
+    </File>
+    <File Include="secure/MDBImport.aspx">
+      <publishTime>01/19/2015 15:21:36</publishTime>
+    </File>
+    <File Include="secure/phonetree.aspx">
+      <publishTime>06/29/2015 12:32:54</publishTime>
+    </File>
+    <File Include="secure/PortListing.aspx">
+      <publishTime>10/08/2014 09:39:06</publishTime>
+    </File>
+    <File Include="secure/ServerShortcuts.aspx">
+      <publishTime>12/18/2014 16:22:43</publishTime>
+    </File>
+    <File Include="secure/testpage.aspx">
+      <publishTime>08/20/2014 11:03:48</publishTime>
+    </File>
+    <File Include="secure/TransmitUtility.aspx">
+      <publishTime>12/30/2014 14:03:10</publishTime>
+    </File>
+    <File Include="secure/UnzipUploadedPics.aspx">
+      <publishTime>10/01/2014 10:05:38</publishTime>
+    </File>
+    <File Include="secure/UpdateNotification.aspx">
+      <publishTime>06/29/2015 12:34:06</publishTime>
+    </File>
+    <File Include="Styles/Copy of techserv.css">
+      <publishTime>01/22/2013 13:22:44</publishTime>
+    </File>
+    <File Include="Styles/techserv.css">
+      <publishTime>06/29/2015 12:35:11</publishTime>
+    </File>
+    <File Include="System.Data.SQLite.dll">
+      <publishTime>03/13/2014 15:45:17</publishTime>
+    </File>
+    <File Include="TechservM.master">
+      <publishTime>06/29/2015 12:33:20</publishTime>
+    </File>
+    <File Include="UsedHardwareList.aspx">
+      <publishTime>06/25/2015 11:09:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/12/2015 14:49:56</publishTime>
+    </File>
+    <File Include="zas400.aspx">
+      <publishTime>10/29/2014 16:03:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
